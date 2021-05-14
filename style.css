@@ -1,6 +1,30 @@
 .jumbotron {
     background-image: url("./chewy-3cAMUE3YAO8-unsplashEDIT.jpg");
     background-size: 100% 100%;
+    min-height: 300px;
   }
+  #Header{
+    background-color: #2D5D7B;
+  }
+  header{
+    min-height: 75px;
+    background-color: #2D5D7B;
+    text-align: center;
+    color: white;
+  }
+#TopNav{
+  background-color: silver;
+
+}
+#logo{
+  height: 75px;
+  width: 75px;
+}
+  a{
+    color:white;
+  }
+body{
+  background-color: #f4f4f4;
+}
 
 
