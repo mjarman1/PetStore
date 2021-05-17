@@ -2,6 +2,18 @@
     background-image: url("./chewy-3cAMUE3YAO8-unsplashEDIT.jpg");
     background-size: 100% 100%;
     min-height: 300px;
+    margin-top: 110px;
+  }
+  #market{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   #Header{
     background-color: #2D5D7B;
@@ -27,4 +39,55 @@ body{
   background-color: #f4f4f4;
 }
 
+h1{text-align: center;}
 
+hr {width: 300px;height: 5px;background-color:#666;opacity: 0.5;}
+
+#aboutjumbo{
+  background-image: url("./Full-Width-Banner-Blog-Category-Pages-1200x492.jpg");
+  background-size: 100% 100%;
+  min-height: 300px; 
+}
+
+#contactjumbo{
+  background-image: url("./MP-homepage-slider-06WIDE.jpg");
+  background-size: 100% 100%;
+  min-height: 300px; 
+}
+
+.sticky {
+  position: fixed;
+  top: 75px;
+  width: 100%;
+}
+
+.stickier {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+#foodmarket{
+  color:silver;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#bedmarket{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

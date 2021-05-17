@@ -8,15 +8,22 @@
 
      <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+ <!--FontAwesome-->
+ <script src=https://use.fontawesome.com/releases/v5.15.1/js/all.js crossorigin="anonymous"></script> 
+
+
+ <link rel="stylesheet" href="style.css">
+ 
 
 
      <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="Header">
+  
+    <div id="Header" class="stickier">
         <header><img id= "logo" src="./Actual Pet Store logo.PNG" alt="logo"></header>
         </div>
-       <nav>
+       <nav class="sticky">
         <ul id="TopNav" class="nav justify-content-center">
           <li class="nav-item">
             <a class="nav-link active" href="./index.html">Home</a>
@@ -29,13 +36,40 @@
           </li>
         </ul>
        </nav>
-    
-      <div class="jumbotron jumbotron-fluid">
+      
+      <div id="contactjumbo" class="jumbotron jumbotron-fluid">
         <div class="container">
         <h1 class="display-4"></h1>
         
         </div>
       </div>
+
+      <h1 style="text-align: center;">Get In Touch With Us!</h1>
+      <p style="margin-left: 20px;margin-right: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur minus iste beatae veritatis suscipit doloremque perspiciatis molestiae illum sunt! Consequatur nam quasi tenetur doloremque necessitatibus laborum, vitae iusto! Dolores, ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ut cum unde recusandae alias architecto porro dolores odio sapiente facere fuga, aperiam cumque quia, earum neque odit culpa. Perferendis, placeat.</p>
+
+    <h1 style="margin-top: 100px;">Name  <input type="text" name="textbox_name" id="textbox_id" placeholder="Enter Name"
+class="textbox_classname"></h1>
+<div style="display: flex;flex-direction: column; text-align: center; align-items: center;">
+ <textarea style="height: 300px;width: 800px;" type="text" name="textbox_name" id="textbox_id" placeholder="Anything you'd like to tell us."
+  class="textbox_classname"></textarea>
+  <input style="width: 100px;margin-top: 10px;margin-bottom: 10px;" type="submit" value="Submit">
+  </div>
+  <footer style="display: flex;flex-direction: row;justify-content: space-between;background-color: #2D5D7B;">
+    <div>
+      <ul style="list-style:none;display: flex;flex-direction: row;justify-content: space-between;">
+     <a href="#contactjumbo"> <li>Back To Top</li></a>
+      </ul>
+    </div>
+    <div style="color: white;"><i class="far fa-copyright"></i>Best Pet LLC </div>
+    <div>
+     <a href="#"> <i class="fab fa-youtube"></i></a>
+     <a href="#"><i class="fab fa-facebook"></i></a>
+     <a href="#"><i class="fab fa-twitter"></i></a>
+     <a href="#"><i class="fab fa-linkedin"></i></a>
+     <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    
+  </footer>
     
 </body>
 </html>
